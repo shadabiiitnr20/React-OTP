@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import OTPLoginForm from "./components/OTPLoginForm";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='m-2 p-2 text-center'>
+      <h3 className='font-semibold underline text-xl'>Login via OTP</h3>
+      <OTPLoginForm />
     </div>
   );
 }
